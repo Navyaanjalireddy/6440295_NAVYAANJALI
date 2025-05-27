@@ -1,0 +1,213 @@
+/* ======================== */
+/* 1. Basic Reset & Setup */
+/* ======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ======================== */
+/* 2. Header Styles */
+/* ======================== */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ======================== */
+/* 3. Navigation Styles */
+/* ======================== */
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* ======================== */
+/* 4. Welcome Banner */
+/* ======================== */
+#welcome-banner {
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ======================== */
+/* 5. Event Gallery */
+/* ======================== */
+.event-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.event-gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ======================== */
+/* 6. Event Table Styles */
+/* ======================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* ======================== */
+/* 7. Form Styles */
+/* ======================== */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* ======================== */
+/* 8. Feedback Section */
+/* ======================== */
+.feedback {
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* ======================== */
+/* 9. Typography */
+/* ======================== */
+.description {
+  text-align: justify;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2e7d32;
+}
+
+h3, p {
+  color: #555;
+}
+
+/* ======================== */
+/* 10. Multi-column Layout */
+/* ======================== */
+.bulletin .article {
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 1px solid gray;
+  padding: 20px;
+}
+
+/* ======================== */
+/* 11. Responsive Design */
+/* ======================== */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .event-gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 0.95rem;
+  }
+}
+
+/* ======================== */
+/* 12. Utility Classes */
+/* ======================== */
+.highlight {
+  outline: 2px solid orange;
+}
+
+/* ======================== */
+/* 13. Footer */
+/* ======================== */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

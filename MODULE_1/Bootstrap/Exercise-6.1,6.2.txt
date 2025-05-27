@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="container mt-4">
+  <div class="d-flex flex-column flex-md-row bg-dark p-3 text-white gap-3">
+    <a href="#" class="text-white text-decoration-none">Home</a>
+    <a href="#" class="text-white text-decoration-none">About</a>
+    <a href="#" class="text-white text-decoration-none">Services</a>
+    <a href="#" class="text-white text-decoration-none">Contact</a>
+  </div>
+</nav>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Card Layout Flex</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container mt-4">
+  <div class="card p-3">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <h5 class="mb-0">Card Title</h5>
+        <small class="text-muted">Subtitle or date</small>
+      </div>
+      <button class="btn btn-primary">Action</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

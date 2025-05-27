@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Local Setup</title>
+
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5 text-center">
+    <h1 class="text-primary">Hello, Bootstrap 5 (Local Files)</h1>
+    <p>This page is using locally downloaded Bootstrap files.</p>
+    <button class="btn btn-success">Click Me</button>
+  </div>
+
+  <!-- Link to Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

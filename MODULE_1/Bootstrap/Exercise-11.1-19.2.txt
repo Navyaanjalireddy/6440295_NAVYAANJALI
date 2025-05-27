@@ -1,0 +1,513 @@
+------------------------------------------------------------------------Exercise 11.1----------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap Exercises 11-19</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #f8f9fa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+
+<section>
+  <h2>Exercise 11.1: Profile Card</h2>
+  <div class="card card-custom" style="width: 18rem;">
+    <img src="https://9f8e62d4.delivery.rocketcdn.me/wp-content/uploads/2021/07/Suit-Jacket-Details.jpg" class="card-img-top" alt="Profile Image">
+    <div class="card-body bg-light text-center">
+      <h5 class="card-title text-primary">John Doe</h5>
+      <p class="card-text">Web Developer at Example Inc.</p>
+      <a href="#" class="btn btn-success">Follow</a>
+    </div>
+  </div>
+</section>
+
+----------------------------------------------------------------------Exercise 11.2---------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap Exercises 11-19</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #f8f9fa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 11.2: Media Object</h2>
+  <div class="media d-flex align-items-start bg-white p-3 shadow-sm border rounded">
+    <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=80&q=80" class="mr-3 rounded-circle" alt="Avatar">
+    <div class="media-body ms-3">
+      <h5 class="mt-0 text-primary">Media Heading</h5>
+      This is a media object layout with image on the left and content on the right.
+    </div>
+  </div>
+</section>
+</body>
+</html>
+
+-------------------------------------------------------------Exercise 12.1-------------------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap Exercises 11-19</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #f8f9fa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 12.1: Spacing Utilities</h2>
+  <div class="bg-warning text-dark p-2 m-3 mt-4">
+    This section uses <code>m-3</code>, <code>mt-4</code>, <code>p-2</code>.
+  </div>
+</section>
+</body>
+</html>
+
+----------------------------------------------------Exercise 12.2----------------------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap Exercises 11-19</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #f8f9fa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 12.2: Pricing Section</h2>
+  <div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <div class="border rounded p-4 shadow-sm bg-light">
+        <h4 class="text-success">Basic</h4>
+        <p class="text-muted">$9.99/month</p>
+        <button class="btn btn-outline-primary">Choose Plan</button>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="border rounded p-4 shadow-lg bg-white">
+        <h4 class="text-primary">Pro</h4>
+        <p class="text-muted">$19.99/month</p>
+        <button class="btn btn-primary">Choose Plan</button>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+
+-----------------------------------------------------------------Exercise 13.1-------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="bg-primary text-white p-4 mb-3 rounded">
+      <h2>Dashboard Header</h2>
+      <p>Welcome to your dashboard. Manage everything from here.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJDsEQMWGlQw-KA2uWZsczkm7rkw0ZhAEDtA&s" class="img-fluid rounded mt-3" alt="Professional Dashboard">
+    </div>
+
+    <div class="bg-warning p-4 mb-3 rounded">
+      <h4>Warning Section</h4>
+      <p class="mb-2">Make sure your profile is complete.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTajcW7EsW96aFaKvgCc-sn3LCb_oLg3MUbIg&s" alt="Warning Image">
+    </div>
+
+    <div class="bg-success text-white p-4 rounded">
+      <h4>Success Notification</h4>
+      <p>You’ve successfully updated your settings.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+-----------------------------------------------------------------Exercise 13.2------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap Exercises 11-19</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #f8f9fa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 13.2: Gradient Background</h2>
+  <div class="p-5 bg-dark bg-gradient text-white rounded">
+    Gradient Background with White Text
+  </div>
+</section>
+
+</body>
+</html>
+
+-----------------------------------------------------------------Exercise 14.1------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap Exercises 11-19</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #f8f9fa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+<h2 class="text-success">Exercise 14.1: Responsive Display Utilities</h2>
+    <div class="d-none d-md-block d-lg-flex bg-info text-white p-3">Visible on md and lg screens</div>
+</body>
+</html>
+-----------------------------------------------------------------Exercise 14.2------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bootstrap Exercises 11-19</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #f8f9fa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 1rem 2rem; }
+  </style>
+</head>
+<body>
+<!-- Exercise 14.2 -->
+    <h2 class="text-success">Exercise 14.2: Responsive Sidebar</h2>
+    <div class="d-none d-md-block bg-secondary text-white p-3 sidebar">Sidebar (Visible on tablets and up)</div>
+</body>
+</html>
+-----------------------------------------------------------------15.1------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #fffafa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 2rem 4rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 15.1: Border and Rounded Image</h2>
+  <img src="https://t3.ftcdn.net/jpg/04/96/07/82/360_F_496078236_AKomo4gH6ykR43XmsGeAF6pI8CQAlSGa.jpg" class="border border-primary border-3 rounded-circle mb-3" alt="Rounded Image">
+</section>
+</body>
+</html>
+-----------------------------------------------------------------15.2------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #fffafa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 2rem 4rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 15.2: Card with Shadow and Rounded Pill</h2>
+  <div class="card shadow-lg bg-info text-white rounded-pill-card text-center">
+    Rounded Pill Card with Shadow
+  </div>
+</section>
+</body>
+</html>
+-----------------------------------------------------------------16.1------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed Footer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin-bottom: 60px;
+      padding: 2rem; 
+      background-color: #fffafa;
+    }
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    h3{
+    color: #0d6efd
+    }
+  </style>
+</head>
+<body>
+<h2>Exercise 16.1: Fixed Footer</h2>
+<div class="container mt-5">
+  <h3>Page Content</h3>
+  <p>This is your main content area :</p>
+  <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914" class="img-fluid rounded mb-5" alt="Body Image">
+</div>
+
+<footer class="footer bg-dark text-white text-center p-3">
+   Footer Content © 2025
+</footer>
+
+</body>
+</html>
+
+-----------------------------------------------------------------16.2------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #fffafa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 2rem 4rem; }
+  </style>
+</head>
+<body>
+<section style="padding-bottom: 5rem;">
+  <h2>Exercise 16.2: Badge Overlay</h2>
+  <div class="position-relative d-inline-block">
+    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=150&q=80" class="rounded" alt="Image">
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">New</span>
+  </div>
+</section>
+</body>
+</html>
+-----------------------------------------------------------------17.1------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #fffafa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 2rem 4rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 17.1: Social Media Icons</h2>
+  <footer class="bg-dark text-white text-center p-3">
+    <i class="bi bi-facebook me-3"></i>
+    <i class="bi bi-twitter me-3"></i>
+    <i class="bi bi-instagram"></i>
+  </footer>
+</section>
+</body>
+</html>
+-----------------------------------------------------------------17.2------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #fffafa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 2rem 4rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 17.2: Icon-only Buttons</h2>
+  <button class="btn btn-outline-primary">
+    <i class="bi bi-plus-circle"></i>
+  </button>
+  <button class="btn btn-outline-danger">
+    <i class="bi bi-trash"></i>
+  </button>
+</section>
+</body>
+</html>
+-----------------------------------------------------------------18.1------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #fffafa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 2rem 4rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 18.1: Modal Popup</h2>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Launch Modal
+  </button>
+  <div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Hello! This is a Bootstrap modal.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+-----------------------------------------------------------------18.2------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+  <style>
+    body { padding: 2rem; background-color: #fffafa; }
+    section { margin-bottom: 3rem; }
+    h2 { color: #0d6efd; margin-bottom: 1.5rem; }
+    .card-custom { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .rounded-pill-card { border-radius: 3rem; padding: 2rem 4rem; }
+  </style>
+</head>
+<body>
+<section>
+  <h2>Exercise 18.2: Accordion</h2>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          This is the first item's content.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+
+
+
+-----------------------------------------------------------------19.2------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customized Bootstrap with Sass</title>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-primary">Customized Theme</h1>
+
+    <div class="alert alert-success rounded">This is a success alert with customized border radius!</div>
+
+    <button class="btn btn-primary rounded">Custom Primary Button</button>
+  </div>
+</body>
+</html>
+
+
+ 
+    
